@@ -2,8 +2,14 @@
 
 Work by Zachary Baca and Aaron Clark
 
+Pages:
+  -home
+  -about
+  -contact
+  -tbd
 
-Styling.
+
+###Styling.
 
 Font Used: Mr. Eaves Mod OT
   - h1: light italic
