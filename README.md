@@ -19,6 +19,9 @@ Font Used: Mr. Eaves Mod OT
   - p: book
   - footer: book
 
+  <link rel="stylesheet" href="https://use.typekit.net/rvq8yfn.css">
+
+
 No colors determined yet.
 
 Breakpoints:
