@@ -158,8 +158,8 @@ h1 {
   font-size: 6rem;
 }
 h2 {
-  font-size: 5rem;
-  padding-bottom: 10px;
+  font-size: 3.5rem;
+  padding: 10px 0;
 }
 h3 {
   font-size: 3rem;
@@ -182,12 +182,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  text-decoration: none;
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
 header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
-  margin-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 @media screen and (max-width: 480px) {
   header {
@@ -195,21 +212,26 @@ header {
     flex-direction: column;
   }
   header h1 {
-    margin-bottom: 2rem;
+    font-size: 5rem;
+    margin-bottom: 1rem;
   }
-  header .navigationBar {
+  header .navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 80%;
+  }
+  header .navBar a {
+    font-size: 1.75rem;
   }
 }
 header nav {
   display: flex;
   justify-content: space-between;
   width: 40%;
+  text-decoration: none;
 }
 header nav a {
-  font-size: 1.75rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 footer {
@@ -220,38 +242,53 @@ footer {
 .home {
   padding: 0 2%;
 }
-.home .splash .splashIMG {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: auto;
-}
-.home .splash .splashHeader {
-  border: 1px solid red;
-  position: absolute;
-  text-align: center;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 .home .splash .splashText {
   margin: 1rem;
 }
-.home .mainContent {
-  border: 1px solid red;
-}
 .home .mainContent .information {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .home .mainContent .information .textBox {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 31%;
+  padding: 1rem;
+  width: 30%;
 }
-.home .mainContent .information .textBox .img {
+@media screen and (max-width: 480px) {
+  .home .mainContent .information .textBox {
+    width: 80%;
+  }
+}
+.home .mainContent .information .textBox h3 {
+  margin-bottom: 1rem;
+}
+.home .mainContent .information .textBox img {
   align-self: center;
+  margin-bottom: 1rem;
+}
+.aboutContent {
+  margin: 1rem;
+}
+.aboutContent .boxes {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutContent .boxes .aboutBox {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .aboutContent .boxes .aboutBox {
+    width: 80%;
+  }
+}
+.aboutContent .boxes .aboutBox img {
+  align-self: center;
+  margin-bottom: 1rem;
 }
