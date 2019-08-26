@@ -3,34 +3,41 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
-  margin-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 
-    @media @mobile{
-      display: flex;
-      flex-direction: column;
+  @media @mobile{
+    display: flex;
+    flex-direction: column;
 
-      h1{
-        margin-bottom: 2rem;
-      }
-
-      .navigationBar{
-      display: flex;
-      justify-content: space-between;
-      width: 80%;
-      }
+    h1{
+      font-size: 5rem;
+      margin-bottom: 1rem;
     }
 
+    .navBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+      a{
+        font-size: 1.75rem;
+      }
+
+    }
+  }
 
   nav {
       display: flex;
       justify-content: space-between;
       width: 40%;
+      text-decoration: none; 
 
 
     a {
-      font-size: 1.75rem;
+      font-size: 2rem;
       text-decoration: none; 
     }
+
   }
 }

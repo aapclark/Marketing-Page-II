@@ -1,42 +1,40 @@
 .home{
   padding: 0 2%;
 
-
-
-  .splash{
-
-    .splashIMG{
-      .resIMG();
-    }
-    .splashHeader{
-      .desBor();
-      .centered();
-      color: white;
-    }
-
+  .splash{    
     .splashText{
       margin: 1rem;
     }
-  }
 
+  }
   .mainContent{
-    .desBor();
+
 
       .information{
         display: flex;
-        justify-content: space-evenly;
-      
+        flex-wrap: wrap;
+        justify-content: center;
+        
       .textBox{
-        .desBor();
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 31%;
-
-
-        .img{
-          align-self: center;
+              
+        @media @mobile{
+          width: 80%;
         }
+
+         h3{
+            margin-bottom: 1rem;
+          }
+
+          display: flex;
+          flex-direction: column;
+          padding: 1rem; 
+          width: 30%;
+
+      
+          img{
+            align-self: center;
+            margin-bottom: 1rem;
+          }
     }
     }
   }
