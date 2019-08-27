@@ -3,29 +3,57 @@
 
   .splash{    
     display: flex;
-    align-items:  center;
-    justify-content: space-evenly;
     margin-top: 4rem;
+
+
+    @media @mobile{
+      justify-content: center;
+    }
 
     img{
       width: 60%;
+
+      @media @mobile{
+        display: none;
+      }
     }
     .splashText{
       border-left: 1px dashed @darkTan;
       padding-left: 4rem;
       margin: 1rem;
+      @media @mobile{
+        padding: 0rem 2rem;
+        border-left: none;
+        margin: auto;
+
+      }
 
       .call{
         .splashFont();
+      }
+
+      form{
+        @media @mobile{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+        }
       }
       .callBTN{
         .login();
         font-size: 2rem;
         text-align: center;
         padding: 1rem 2rem;
+
+        @media @mobile{
+          align-self: center;
+          margin: auto;
+        }
+        }
       }
     }
-  }
+  
 
   
   .mainContent{

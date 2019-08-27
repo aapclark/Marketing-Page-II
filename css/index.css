@@ -225,13 +225,12 @@ header {
     flex-direction: column;
   }
   header h1 {
-    font-size: 5rem;
     margin-bottom: 1rem;
   }
   header .navBar {
     display: flex;
     justify-content: space-evenly;
-    width: 80%;
+    width: 90%;
   }
   header .navBar a {
     font-size: 1.75rem;
@@ -272,23 +271,45 @@ footer {
 }
 .home .splash {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   margin-top: 4rem;
+}
+@media screen and (max-width: 480px) {
+  .home .splash {
+    justify-content: center;
+  }
 }
 .home .splash img {
   width: 60%;
+}
+@media screen and (max-width: 480px) {
+  .home .splash img {
+    display: none;
+  }
 }
 .home .splash .splashText {
   border-left: 1px dashed #7A6F48;
   padding-left: 4rem;
   margin: 1rem;
 }
+@media screen and (max-width: 480px) {
+  .home .splash .splashText {
+    padding: 0rem 2rem;
+    border-left: none;
+    margin: auto;
+  }
+}
 .home .splash .splashText .call {
   font-family: sys-tt, sans-serif;
   font-weight: 700;
   font-style: normal;
   line-height: 6rem;
+}
+@media screen and (max-width: 480px) {
+  .home .splash .splashText form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .home .splash .splashText .callBTN {
   color: #fafdff;
@@ -298,6 +319,12 @@ footer {
   font-size: 2rem;
   text-align: center;
   padding: 1rem 2rem;
+}
+@media screen and (max-width: 480px) {
+  .home .splash .splashText .callBTN {
+    align-self: center;
+    margin: auto;
+  }
 }
 .home .mainContent .information {
   display: flex;
@@ -333,8 +360,12 @@ footer {
     width: 90%;
   }
 }
+.home .splashText {
+  margin-top: 4rem;
+}
 .aboutContent {
   margin: 1rem;
+  margin-top: 4rem;
 }
 .aboutContent .boxes {
   display: flex;
