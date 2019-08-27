@@ -3,9 +3,9 @@
 Work by Zachary Baca and Aaron Clark
 
 Pages:
-  -home
-  -about
-  -contact
+  -home (Aaron)
+  -about (Aaron)
+  -contact (Zachary)
   -tbd
 
 
@@ -37,6 +37,6 @@ Icons and Login buttons -- @darkBlue: #033859;
 Breakpoints:
   - mobile: max-width: 480px
   - tablet: max-width: 768px
-  - desktop: 
+
 
   
