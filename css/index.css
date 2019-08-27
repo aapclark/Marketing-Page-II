@@ -210,8 +210,8 @@ header .navBar {
   justify-content: space-evenly;
 }
 header .navBar a {
-  font-size: 2rem;
-  text-decoration: none!important;
+  font-size: 1.75rem;
+  text-decoration: none;
   color: #7A6F48;
 }
 @media screen and (max-width: 500px) {
@@ -378,4 +378,8 @@ footer {
 .aboutContent .boxes .aboutBox img {
   align-self: center;
   margin-bottom: 1rem;
+}
+.header-container {
+  display: flex;
+  justify-content: center;
 }
