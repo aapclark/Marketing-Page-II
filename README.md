@@ -22,7 +22,15 @@ Font Used: Mr. Eaves Mod OT
   <link rel="stylesheet" href="https://use.typekit.net/rvq8yfn.css">
 
 
-No colors determined yet.
+###Colors
+
+/* Color Theme Swatches in Hex */
+<!-- @darkblue: #033859;
+@darkbluegreen: #023440;
+@darkevergreen: #012623; -->
+@darkTan: #7A6F48;
+@veryLightBlue: #F0F4FD;
+
 
 Breakpoints:
   - mobile: max-width: 480px

@@ -140,12 +140,14 @@ body {
   font-family: 'mr-eaves-modern', sans-serif;
   font-weight: 300;
   font-style: normal;
+  background-color: #fafdff;
 }
 h1,
 h2 {
   font-family: 'mr-eaves-xl-modern', sans-serif;
   font-weight: 200;
   font-style: normal;
+  color: #7A6F48;
 }
 h3,
 h4,
@@ -153,6 +155,7 @@ h5 {
   font-family: 'mr-eaves-modern', sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: #7A6F48;
 }
 h1 {
   font-size: 6rem;
@@ -160,6 +163,7 @@ h1 {
 h2 {
   font-size: 3.5rem;
   padding: 10px 0;
+  color: #7A6F48;
 }
 h3 {
   font-size: 3rem;
@@ -172,6 +176,7 @@ p {
   line-height: 1.5;
   font-size: 2rem;
   padding-bottom: 10px;
+  color: #7A6F48;
 }
 img {
   max-width: 100%;
@@ -184,20 +189,28 @@ img {
 }
 a:visited {
   text-decoration: none;
-  color: black;
+  color: #7A6F48;
 }
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #7A6F48;
 }
 a:focus {
   text-decoration: none;
-  color: black;
+  color: #7A6F48;
 }
 a:hover,
 a:active {
   text-decoration: none;
-  color: black;
+  color: #7A6F48;
+}
+hr {
+  border-top: 1px dashed #7A6F48;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+i {
+  color: #033859;
 }
 header {
   display: flex;
@@ -224,6 +237,11 @@ header {
     font-size: 1.75rem;
   }
 }
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -233,33 +251,66 @@ header nav {
 header nav a {
   font-size: 2rem;
   text-decoration: none;
+  padding: 0.66rem 1rem;
+}
+header nav .login {
+  color: #fafdff;
+  align-self: center;
+  background-color: #033859;
+  border-radius: 3rem;
 }
 footer {
   text-align: center;
-  font-size: 1.6rem;
+  font-family: 'mr-eaves-xl-modern', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
   padding: 1rem 0 0 0;
 }
 .home {
   padding: 0 2%;
 }
+.home .splash {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+.home .splash img {
+  width: 60%;
+}
 .home .splash .splashText {
+  border-left: 1px dashed #7A6F48;
+  padding-left: 4rem;
   margin: 1rem;
+}
+.home .splash .splashText .call {
+  font-family: sys-tt, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 6rem;
+}
+.home .splash .splashText .callBTN {
+  color: #fafdff;
+  align-self: center;
+  background-color: #033859;
+  border-radius: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 2rem;
 }
 .home .mainContent .information {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 1rem;
 }
 .home .mainContent .information .textBox {
   display: flex;
   flex-direction: column;
+  justify-items: center;
   padding: 1rem;
   width: 30%;
-}
-@media screen and (max-width: 480px) {
-  .home .mainContent .information .textBox {
-    width: 80%;
-  }
 }
 .home .mainContent .information .textBox h3 {
   margin-bottom: 1rem;
@@ -268,11 +319,24 @@ footer {
   align-self: center;
   margin-bottom: 1rem;
 }
+.home .mainContent .information .textBox i {
+  padding: 2rem;
+  margin: auto;
+}
+@media screen and (max-width: 480px) {
+  .home .mainContent .information .textBox {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home .mainContent .information .textBox {
+    width: 90%;
+  }
+}
 .aboutContent {
   margin: 1rem;
 }
 .aboutContent .boxes {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

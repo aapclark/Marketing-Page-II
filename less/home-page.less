@@ -2,11 +2,32 @@
   padding: 0 2%;
 
   .splash{    
-    .splashText{
-      margin: 1rem;
-    }
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
 
+    img{
+      width: 60%;
+    }
+    .splashText{
+      border-left: 1px dashed @darkTan;
+      padding-left: 4rem;
+      margin: 1rem;
+
+      .call{
+        .splashFont();
+      }
+      .callBTN{
+        .login();
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 2rem;
+      }
+    }
   }
+
+  
   .mainContent{
 
 
@@ -14,27 +35,37 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 1rem;
         
       .textBox{
-              
+        h3{
+          margin-bottom: 1rem;
+       }
+        display: flex;
+        flex-direction: column;
+       justify-items: center;
+        padding: 1rem; 
+        width: 30%;
+
+    
+        img{
+          align-self: center;
+          margin-bottom: 1rem;
+        }
+        i{
+          padding: 2rem;
+          margin: auto;
+        }
+
         @media @mobile{
           width: 80%;
         }
 
-         h3{
-            margin-bottom: 1rem;
-          }
+        @media @tablet{
+          width: 90%;
+        }
 
-          display: flex;
-          flex-direction: column;
-          padding: 1rem; 
-          width: 30%;
 
-      
-          img{
-            align-self: center;
-            margin-bottom: 1rem;
-          }
     }
     }
   }

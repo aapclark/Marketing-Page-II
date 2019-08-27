@@ -8,14 +8,17 @@ html {
 
 html, body {
   .mainFont();
+  background-color: @veryLightBlue;
 }
 
 h1, h2{
   .headingFont();
+  color: @darkTan;
 }
 
  h3, h4, h5 {
   .midHeaderFont();
+  color: @darkTan;
 }
 
 
@@ -27,6 +30,7 @@ h1 {
 h2 {
   font-size: 3.5rem;
   padding: 10px 0;
+  color: @darkTan
 }
 
 h3 {
@@ -42,6 +46,7 @@ p {
   line-height: 1.5;
   font-size: 2rem;
   padding-bottom: 10px;
+  color: @darkTan;
 }
 
 img {
@@ -56,7 +61,17 @@ img {
 }
 
 
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:black; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:black }
+a:visited { text-decoration: none; color:@darkTan; }
+a:hover { text-decoration: none; color:@darkTan; }
+a:focus { text-decoration: none; color:@darkTan; }
+a:hover, a:active { text-decoration: none; color:@darkTan }
+
+hr{
+  border-top: 1px dashed @darkTan;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+i{
+  color: @darkBlue;
+}
