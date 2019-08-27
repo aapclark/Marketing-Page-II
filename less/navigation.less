@@ -6,25 +6,34 @@ header{
   padding-bottom: 1rem;
   margin-top: 1rem;
 
-  @media @mobile{
-    display: flex;
-    flex-direction: column;
 
-    h1{
-      margin-bottom: 1rem;
-    }
 
     .navBar{
     display: flex;
     justify-content: space-evenly;
-    width: 60%;
 
       a{
         font-size: 1.75rem;
-        text-decoration: none; 
+        text-decoration: none;
+        color: @darkTan; 
       }
     }
+
+    @media @mobile{
+      display: flex;
+      flex-direction: column;
+  
+      h1{
+        margin-bottom: 1rem;
+      }
   }
+
+    @media @tablet{
+
+      h1{
+        font-size: 4.5rem;
+      }
+    }
 
 
   nav {
@@ -33,6 +42,9 @@ header{
       width: 40%;
       text-decoration: none; 
 
+      @media @mobile{
+        width: 80%;
+      }
 
     a {
 
