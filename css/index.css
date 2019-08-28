@@ -337,24 +337,27 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1rem;
+  flex-basis: 10vh;
 }
 .home .mainContent .information .textBox {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  align-content: flex-start;
   padding: 1rem;
-  width: 30%;
+  width: 33%;
 }
 .home .mainContent .information .textBox h3 {
   margin-bottom: 1rem;
 }
 .home .mainContent .information .textBox img {
   align-self: center;
+  margin-top: auto;
   margin-bottom: 1rem;
 }
 .home .mainContent .information .textBox i {
   padding: 2rem;
-  margin: auto;
+  margin: 1rem auto;
 }
 @media screen and (max-width: 500px) {
   .home .mainContent .information .textBox {
