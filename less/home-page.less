@@ -10,17 +10,17 @@
       justify-content: center;
     }
 
-    img{
+    .homeSVG{
       width: 60%; 
 
       @media @mobile{
         display: none;
       }
     } 
+
     .splashText{
-      border-left: 1px dashed @darkTan;
-      padding-left: 4rem;
-      margin: 1rem;
+      .leftDash();
+
       @media @mobile{
         padding: 0rem 2rem;
         border-left: none;
@@ -68,9 +68,7 @@
 
         
       .textBox{
-        h3{
-          margin-bottom: 1rem;
-       }
+        
         display: flex;
         flex-direction: column;
         justify-items: center;
