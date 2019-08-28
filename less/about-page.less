@@ -1,23 +1,59 @@
 
 .home{
-  .splashText{
-    margin-top: 4rem;
+
+.aboutSplash{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+
+    .aboutSVG{
+      width: 60%;
+      padding: 1rem 5rem;
+
+      @media @mobile{
+      display: none;
+      }
+    }
+
+    @media @mobile{
+    justify-content: center;
+    }
+
+    .splashText{
+      .leftDash();
+      padding: 10vw 4rem;
+
+      @media @mobile{
+        padding: 0rem 2rem;
+        border-left: none;
+        margin: auto;
+
+      }
+    }
   }
 }
 
 .aboutContent{
-  margin: 1rem;
-  margin-top: 4rem;
+  background-image: url("../images/pattern.png");
+  background-size: 20%;
+  
+  padding: 4rem;
+
+
 .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
 
-  .aboutBox{
 
+  .aboutBox{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+
+    
     padding: 1rem; 
     width: 50%;
 
@@ -25,7 +61,12 @@
       width: 80%;
     }
 
+    @media @tablet{
+      width: 90%;
+    }
+
     img{
+      width: 40%;
       align-self: center;
       margin-bottom: 1rem;
     }
