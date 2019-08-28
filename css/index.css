@@ -387,3 +387,7 @@ footer {
   align-self: center;
   margin-bottom: 1rem;
 }
+.contactImage {
+  width: 100%;
+  height: 300px;
+}
