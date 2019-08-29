@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="images/icon.png">
   <script src="https://kit.fontawesome.com/91392b981d.js"></script>
   <link rel="stylesheet" href="https://use.typekit.net/rvq8yfn.css">
   <link rel="stylesheet" href="css/index.css">
@@ -12,57 +13,51 @@
 </head>
 
 <body>
-  <header>
-    <h1>SAFE ROUTES</h1>
-    <nav class="navBar">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="https://safe-routes-bw.netlify.com/" class="login">Login</a>
-    </nav>
-  </header>
   <div class="container home">
+    <header>
+      <h1>SAFE ROUTES</h1>
+      <nav class="navBar">
+        <a href="index.html" class="hvr-foward">Home</a>
+        <a href="about.html" class="hvr-foward">About</a>
+        <a href="contact.html" class="hvr-foward">Contact</a>
+        <a href="https://safe-routes-bw.netlify.com/" class="hvr-forward login">Login</a>
+      </nav>
+    </header>
     <img src="images/aerial-view.jpg" alt="aerial view of streets">
     <section class="splash">
-      <img src="images/map.svg" alt="map">
-        <div class="splashText">
+      <img src="images/map.svg" alt="map" class="homeSVG">
+      <div class="splashText">
         <h2 class="call">Machine Learning <br>Meets <br>Route Planning</h2>
-        <p>Safe Routes analyzes historic traffic data to deliver the safest transportation routes.</p>
+        <p>Safe Routes analyzes historic traffic data so users can view and avoid accident-prone areas of routes.</p>
         <form action="https://safe-routes-bw.netlify.com/" method="get" target="_blank">
           <button type="submit" class="callBTN">Login</button>
       </div>
-      </section>
-      <hr>
+    </section>
+    <hr>
     <section class="mainContent">
 
       <section class="information">
         <div class="textBox">
-            <i class="fas fa-walking fa-6x"></i>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum optio, minus natus voluptatem dicta nihil
-            provident vitae dolore tenetur hic quas accusamus porro expedita modi sed distinctio similique, pariatur
-            laboriosam.</p>
-          <img src="images/iphone-nav.jpg" alt="iphone navigation">
+          <i class="fas fa-walking fa-6x"></i>
+          <h3>Pedestrian Friendly</h3>
+          <p>Safe Routes was design with drivers and pedestrian in mind. Users have access to what areas are dangerous to drivers and pedestrians.</p>
+          <img src="images/screen4.png" alt="iphone navigation">
         </div>
 
 
         <div class="textBox">
-            <i class="fas fa-route fa-6x"></i>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum optio, minus natus voluptatem dicta nihil
-            provident vitae dolore tenetur hic quas accusamus porro expedita modi sed distinctio similique, pariatur
-            laboriosam.</p>
-          <img src="images/iphone-nav.jpg" alt="iphone navigation">
+          <i class="fas fa-route fa-6x"></i>
+          <h3>Intelligent Prediction</h3>
+          <p>In addition to displaying historic accident data near a given address, Safe Routes will predict the liklihood of future accidents in given locations.</p>
+          <img src="images/screen2.png" alt="iphone navigation">
         </div>
 
 
         <div class="textBox">
-            <i class="fas fa-car-crash fa-6x"></i>
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum optio, minus natus voluptatem dicta nihil
-            provident vitae dolore tenetur hic quas accusamus porro expedita modi sed distinctio similique, pariatur
-            laboriosam.</p>
-          <img src="images/iphone-nav.jpg" alt="iphone navigation">
+          <i class="fas fa-car-crash fa-6x"></i>
+          <h3>Accident Avoidance</h3>
+          <p>Safe Routes draws from a massive database of traffic incidents. Our algorithms look for impact of weather, time of day, season, and other variables. Users can filter data by month and year.</p>
+          <img src="images/screen5.png" alt="iphone navigation">
         </div>
       </section>
     </section>
@@ -72,6 +67,7 @@
   <footer>
     <p>Copyright 2019 Safe Routes</p>
   </footer>
+
 </body>
 
 </html>

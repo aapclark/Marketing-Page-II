@@ -6,44 +6,51 @@ header{
   padding-bottom: 1rem;
   margin-top: 1rem;
 
-  @media @mobile{
-    display: flex;
-    flex-direction: column;
 
-    h1{
-      margin-bottom: 1rem;
-    }
 
     .navBar{
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
 
       a{
-        font-size: 1.75rem;
+        text-decoration: none!important;
+        font-size: 2rem;
+        color: @darkTan;
+        .forward();
       }
-
-
     }
+
+    @media @mobile{
+      display: flex;
+      flex-direction: column;
+  
+      h1{
+        margin-bottom: 1rem;
+      }
   }
 
-  @media @tablet{
-    h1{
-      font-size: 4rem;
+    @media @tablet{
+
+      h1{
+        font-size: 4.5rem;
+      }
     }
-  }
+
 
   nav {
       display: flex;
       justify-content: space-between;
       width: 40%;
-      text-decoration: none; 
 
+
+      @media @mobile{
+        width: 80%;
+      }
 
     a {
 
-      font-size: 2rem;
-      text-decoration: none; 
+      font-size: 2.25rem;
+
       padding: .66rem 1rem;
     }
     
