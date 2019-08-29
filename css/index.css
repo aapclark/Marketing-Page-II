@@ -351,11 +351,15 @@ footer {
 .home .mainContent .information .textBox img {
   align-self: center;
   margin-top: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
 }
 .home .mainContent .information .textBox i {
   padding: 2rem;
   margin: 1rem auto;
+}
+.home .mainContent .information .textBox p {
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 500px) {
   .home .mainContent .information .textBox {
@@ -430,6 +434,7 @@ footer {
 .aboutContent .boxes .aboutBox img {
   width: 40%;
   align-self: center;
+  border-radius: 2rem;
   margin-bottom: 1rem;
 }
 .contactImage {
