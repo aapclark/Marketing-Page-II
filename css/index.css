@@ -351,11 +351,15 @@ footer {
 .home .mainContent .information .textBox img {
   align-self: center;
   margin-top: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
 }
 .home .mainContent .information .textBox i {
   padding: 2rem;
   margin: 1rem auto;
+}
+.home .mainContent .information .textBox p {
+  margin-bottom: 2rem;
 }
 @media screen and (max-width: 500px) {
   .home .mainContent .information .textBox {
@@ -402,7 +406,8 @@ footer {
 .aboutContent {
   background-image: url("../images/pattern.png");
   background-size: 20%;
-  padding: 4rem;
+  margin-top: -4rem;
+  padding: 8rem 4rem;
 }
 .aboutContent .boxes {
   display: flex;
@@ -429,6 +434,7 @@ footer {
 .aboutContent .boxes .aboutBox img {
   width: 40%;
   align-self: center;
+  border-radius: 2rem;
   margin-bottom: 1rem;
 }
 .contactImage {
@@ -449,6 +455,7 @@ footer {
   background-color: green;
   color: white;
 }
+<<<<<<< HEAD
 .productImage {
   height: 200px;
   width: 100%;
@@ -456,3 +463,5 @@ footer {
 .devImageClass {
   margin-left: 200px;
 }
+=======
+>>>>>>> bf3386d8c30edda245ab4b7d8348b2e0f174612e
