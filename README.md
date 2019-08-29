@@ -1,6 +1,6 @@
 # Marketing-Page-II
 
-Work by Zachary Baca and Aaron Clark
+Work by Zachary Baca and Aaron Clark-
 
 Pages:
   -home (Aaron)
