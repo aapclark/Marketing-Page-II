@@ -431,3 +431,21 @@ footer {
   align-self: center;
   margin-bottom: 1rem;
 }
+.contactImage {
+  width: 100%;
+  height: 300px;
+}
+.infoForm {
+  display: flex;
+  flex-direction: column;
+}
+.form-class {
+  width: 800px;
+  height: 260px;
+  margin-top: 20px;
+  border: 2px solid green;
+}
+.form-class button {
+  background-color: green;
+  color: white;
+}
