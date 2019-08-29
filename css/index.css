@@ -402,7 +402,8 @@ footer {
 .aboutContent {
   background-image: url("../images/pattern.png");
   background-size: 20%;
-  padding: 4rem;
+  margin-top: -4rem;
+  padding: 8rem 4rem;
 }
 .aboutContent .boxes {
   display: flex;
@@ -431,15 +432,10 @@ footer {
   align-self: center;
   margin-bottom: 1rem;
 }
- zachary-baca
-=======
- zachary-baca
-master
 .contactImage {
   width: 100%;
   height: 300px;
 }
- zachary-baca
 .infoForm {
   display: flex;
   flex-direction: column;
@@ -454,7 +450,3 @@ master
   background-color: green;
   color: white;
 }
-=======
-=======
- master
- master
