@@ -449,3 +449,10 @@ footer {
   background-color: green;
   color: white;
 }
+.productImage {
+  height: 200px;
+  width: 100%;
+}
+.devImageClass {
+  margin-left: 200px;
+}
