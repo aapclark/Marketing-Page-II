@@ -1,12 +1,11 @@
 # Marketing-Page-II
 
-Work by Zachary Baca and Aaron Clark-
+Work by Aaron Clark-
 
 Pages:
   -home (Aaron)
   -about (Aaron)
-  -contact (Zachary)
-  -tbd
+
 
 
 ###Styling.
